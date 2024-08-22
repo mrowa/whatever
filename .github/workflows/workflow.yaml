@@ -20,5 +20,9 @@ jobs:
         run: whoami
       - name: get blkid
         run: blkid
+      - name: get df -h
+        run: df -h
+      - name: get mounts
+        run: mount
       - name: get etc
         run: ls /etc/
