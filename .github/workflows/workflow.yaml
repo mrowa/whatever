@@ -17,6 +17,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: sudo apt update
+  TestWithoutSudo:
+    runs-on: ubuntu-latest
+    steps:
+      - run: apt update
   ThisAndThat:
     runs-on: ubuntu-latest
     steps:
